@@ -9,42 +9,127 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+   <script> <%= stylesheet_link_tag "normalize", "all" %>
+    <%= javascript_include_tag  "all" %></script>
   </head>
 
-  <body class="<%= page_classes %>">
-    <div>
-      <center>
-        <%= image_tag 'logos.png', :style => "width: 300px;margin-top: 50px;margin-bottom: -200;border-top-width: 90px;" %>
-
-        <div class="header">
-        </div>
-
-        <div class="menu">
-          <%= link_to "GALLERIA", '/galleria.html' %>
-          <a href="#"> STORIA</a>
-          <a href="#"> CONTATTI</a>
-        </div>
-
-      </center>
+  
+      <title>pietre.Lacagnina</title>
+      <style>
+      body {
+          background: url('../images/velluto.jpg') no-repeat center center fixed;
+          -moz-background-size: cover;
+          -webkit-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        font-family: Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+ 
+      h2 {
+ 
+      }
+ 
+      h1 {
+           font-family: , sans-serif;font-size:100px;
+      }
+ 
+      h2 {
+        color:white;
+        font-size:10px;
+      }
+ 
+      p {
+        color:grey;
+  	  size:2px;
+	  
+	  
+      }
+ 
+      a {
+        text-decoration: none;
+        color:white;
+        }
+ 
+        div.menu {
+          margin-top: -18px;
+          margin-bottom: 23px;
+          text-align: center;
+		
+        }
+ 
+        div.menu {
+          maring-left: 1em;
+          maring-right: 1em;
+          font-size: 0.8em;
+        }
+       
+        .header {
+          background-color: rgba(255,255,255,0.2);
+          height: 200px;
+          border-bottom: rgba(255,255,255,0.3) solid 1px;
+        }
+        .finish{
+          background-color: rgba(255,255,255,1);
+          height:250px;
+          border-bottom: rgba(255,255,255,0.3) solid 1px;
+  		 padding-top: 40px; 
+        }
+	  
+        </style>
+ 
+    </head>
+ 
+ 
+ 
+    <body>
+ 
+      <div>
+        <center>
+         <img src="../images/logos.png" alt="Logos" style="width: 300px;margin-top: 50px;margin-bottom: -200;border-top-width: 90px ;">
+ 
+          <div class="header">
+          </div>
+ 
+          <div class="menu">
+            <a href="galleria 1.html">GALLERIA</a>
+            <a href="#"> STORIA</a>
+            <a href="#"> CONTATTI</a>
+          </div>
+ 
+        </center>
+      </div>
+ 
+      <div>
+        <center>
+          <p style="margin-top: 20px;">ANALISI E CONSULENZE GEMMOLOGICHE,</p>
+          <p style="height: 18px;">GEMME NATURALI E PIETRE GREZZE</p>
+          <p>di LACAGNINA GAETANO</p>
+         
+        </center>
+      </div>
+      <div>
+  	<div class="finish">
+   
+    
+  		<center>
+          <p style="margin-bottom: 8px;font-size:12px">Laboratorio Via Falcone, 7 20123 MILANO, Italy</p>
+          <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">P.I. 09359900157</p>
+          <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">tel. e fax. ++39 02/8051475 - Cell. 3358420472</p>
+          <p style="margin-top: 8px;font-size:12px">lggemme@libero.it</p>
+	
+		
+  	</center>
+      </div>
+ 
     </div>
+ 
+    </body>
+  </html>
     
-    <%= yield %>
     
-
-    <div>
-      <center>
-        <p style="margin-bottom: 8px;">Laboratorio Via Falcone, 7</p>
-        <p style="margin-top: 8px;margin-bottom: 8px;">20123 MILANO</p>
-        <p style="margin-bottom: 8px;margin-top: 8px;">Italy</p>
-        <p style="margin-bottom: 8px;margin-top: 8px;">P.I. 09359900157</p>
-        <p style="margin-bottom: 8px;margin-top: 8px;">tel. e fax. ++39 02/8051475</p>
-        <p style="margin-top: 8px;margin-bottom: 8px;">Cell. 3358420472</p>
-        <p style="margin-top: 8px;">lggemme@libero.it</p>
-      </center>
-    </div>
-
-    
+   <script> <%= yield %>
   </body>
 </html>
+</script
