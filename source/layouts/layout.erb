@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "pietre.Lacagnina" %></title>
+
+    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+  <body>
+    <div>
+      <center>
+        <div class="header">
+          <img src="../images/logos.png" alt="Logos" style="width: 300px;margin-top: 90px;margin-bottom: 76px;border-top-width: 120px ;">
+          <div class="menu">
+            <a href="galleria 1.html">GALLERIA</a>
+            <a href="#"> STORIA</a>
+            <a href="#"> CONTATTI</a>
+          </div>
+        </center>
+      </div>
+    </div>
+
+    <div>
+      <center>
+        <p style="margin-top: 20px;">ANALISI E CONSULENZE GEMMOLOGICHE,</p>
+        <p style="height: 18px;">GEMME NATURALI E PIETRE GREZZE</p>
+        <p>di LACAGNINA GAETANO</p>
+      </center>
+    </div>
+
+
+
+
+
+    <%= yield %><!-- <<<<<<––––QUESTA RIGA È QUELLA CHE VISUALIZZA IL CONTENUTO DELLA PAGINA  -->
+
+
+
+
+
+
+
+    <div>
+      <div class="finish">
+        <center>
+          <p style="margin-bottom: 8px;font-size:12px">Laboratorio Via Falcone, 7 20123 MILANO, Italy</p>
+          <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">P.I. 09359900157</p>
+          <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">tel. e fax. ++39 02/8051475 - Cell. 3358420472</p>
+          <p style="margin-top: 8px;font-size:12px">lggemme@libero.it</p>
+        </center>
+      </div>
+
+    </div>
+
+  </body>
+</html>
