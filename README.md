@@ -18,7 +18,7 @@ e poi aprire nel browser: http://0.0.0.0:4567
 per pubblicare:
 
 ```
-rake publish
+rake publishmi
 ```
 
 
