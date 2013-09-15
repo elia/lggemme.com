@@ -15,6 +15,7 @@
 .orbiter .orbiter-feature:hover {
     background: transparent;
     background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #CCCCCC;
 }
  
 .orbiter .orbiter-feature .feature-tool-tip {
@@ -28,7 +29,7 @@
     color: white;
     background: transparent;
     background: rgba(0, 0, 0, 0.8);
-    border-bottom: 0;
+    border-bottom: 3;
     border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
