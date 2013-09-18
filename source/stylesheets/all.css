@@ -41,7 +41,7 @@ div.menu {
   margin-left: 4em;
   margin-right: 4em;
   font-size: 0.8em;
-  margin-top: 90px;
+  margin-top: 65px;
 }
 
 
@@ -77,6 +77,14 @@ div.menu {
     height:250px;
     border-bottom: rgba(255,255,255,0.3) solid 1px;
     padding-top: 40px; 
+    margin-top:200px;
+  }
+  .indeximg
+  {
+    margin-top:120px;
+  }
+  .biggallery
+  {margin-top:80px;
   }
 
 
