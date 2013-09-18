@@ -9,15 +9,16 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "pietre.Lacagnina" %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <%= javascript_include_tag  "all" %> 
   </head>
     <body>
       <center>
         <div>
-          <div class="header">   
+          <div class="header"> 
+             
             <% link_to "/index.html" do %>
             <%= image_tag 'logos.png' %>
-            <% end %>
+            <% end %> 
         <div class="menu">
             <%= link_to "GALLERIA", "/galleria.html" %>
             <a href="#"> STORIA</a>
