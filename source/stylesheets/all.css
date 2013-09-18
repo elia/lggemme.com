@@ -50,13 +50,20 @@ div.menu {
 
 }
 
-img
-{
-  width:300px;
-  margin-top: 90px;
-  margin-bottom: 60px;
-  border-top: 100px;
-  text-align: center;
+
+#griglia {
+  padding: 0;
+  margin: 100;
+  margin-top:70;
+  margin-bottom:150;
+}
+#griglia > li {
+  border: 1px solid #333333;
+  display: inline-block;
+  width:  160px;
+  height: 160px;
+  margin: 8px;
+  background-color: #abe2ff;
 }
 
 
