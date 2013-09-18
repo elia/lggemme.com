@@ -67,7 +67,13 @@ div.menu {
   height: 160px;
   margin: 8px;
   background-color: #abe2ff;
-}
+}  
+.finish{
+    background-color: rgba(255,255,255,1);
+    height:250px;
+    border-bottom: rgba(255,255,255,0.3) solid 1px;
+    padding-top: 40px; 
+  }
 
 
 
