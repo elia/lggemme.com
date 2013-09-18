@@ -52,6 +52,10 @@ div.menu {
   
 
 }
+.logo
+{ 
+  padding-top: 40px;
+}
 
 
 #griglia {
@@ -74,6 +78,7 @@ div.menu {
     border-bottom: rgba(255,255,255,0.3) solid 1px;
     padding-top: 40px; 
   }
+
 
 
 
