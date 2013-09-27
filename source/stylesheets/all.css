@@ -61,7 +61,7 @@ div.menu {
 #griglia {
   padding: 0;
   margin: 100;
-  margin-top:70;
+  margin-top:130;
   margin-bottom:150;
 }
 #griglia > li {
@@ -69,7 +69,7 @@ div.menu {
   display: inline-block;
   width:  160px;
   height: 160px;
-  margin: 8px;
+  margin: 3px;
   background-color: #abe2ff;
 }  
 .finish{
@@ -84,7 +84,10 @@ div.menu {
     margin-top:120px;
   }
   .biggallery
-  {margin-top:80px;
+  {
+    margin-top:80px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   .sfondobianco
@@ -93,8 +96,7 @@ div.menu {
   {
     margin-top:100px;
   }
-
-
+  
 
 /*
 body {
