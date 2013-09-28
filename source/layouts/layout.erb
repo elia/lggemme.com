@@ -9,7 +9,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "pietre.Lacagnina" %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %> 
+    <%= javascript_include_tag  "all", "tendina" %> 
   </head>
     <body>
       <center>
@@ -20,19 +20,43 @@
             <%= image_tag 'logos.png' %>
             <% end %> 
           </div>
-        <div class="menu">
+      
+       
         
-            <%= link_to "GALLERIA", "/galleria.html" %>
-            <a href="#"> STORIA</a>
-            <a href="#"> CONTATTI</a>
-          </div>
-          </div>
-          </div> 
-        <div>
-            <p style="margin-top: 20px;">ANALISI E CONSULENZE GEMMOLOGICHE,</p>
-            <p style="height: 18px;">GEMME NATURALI E PIETRE GREZZE</p>
-            <p>di LACAGNINA GAETANO</p>
-          </center>
+      		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      		<title>CSS DropDown Menu</title>
+      		<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+      		<link rel="stylesheet" type="text/css" href="css/advanced.css" media="screen" />
+      	</head>
+      	<body>
+      		<div id="drop-menu">
+      			<ul id="menu">
+      				<li><a href="index.html">Home</a></li>
+      				<li><a href="#">CAMPIONARIO</a>
+      					<ul>
+      						<li>
+      							<a href="galleria.html">GALlERIA</a>
+      							<ul>
+      								<li><a href="galleria.gemme.html">GEMME</a></li>
+      								<li><a href="#">PIETRE GREZZE</a></li>
+      							</ul>
+      						</li>
+      						<li>
+      							<a href="#">COME ACQUISTARE</a>
+      							
+      						</li>
+      					</ul>
+      				</li>
+      				<li><a href="#">STORIA</a>
+      					
+      				<li><a href="#">CONTATTI</a></li>
+      			</ul>
+      		</div>
+      	</body>
+      </html>
+           
+    </div>
+        
         </div>
 
 
@@ -53,7 +77,7 @@
           <p style="margin-bottom: 8px;font-size:12px">MILANO, Italy</p>
           <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">P.I. 09359900157</p>
           <p style="margin-bottom: 8px;margin-top: 8px;font-size:12px">tel. e fax. ++39 02/8051475 - Cell. 3358420472</p>
-          <p style="margin-top: 8px;font-size:12px">lggemme@libero.it</p>
+          <p style="margin-top: 8px;font-size:12px"><a href="mailto:lggemme@libero.it">lggemme@libero.it</a></p>
         </center>
       </div>
 

@@ -9,6 +9,7 @@ body {
   font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  font-size:11px;
 }
 
 h1 {
@@ -27,7 +28,7 @@ p {
 
 a {
   text-decoration: none;
-  color:white;
+  color:grey;
 }
 
 div.menu {
@@ -41,13 +42,13 @@ div.menu {
   margin-left: 4em;
   margin-right: 4em;
   font-size: 0.8em;
-  margin-top: 65px;
+  margin-top: 40px;
 }
 
 
 .header {
   background-color: rgba(255,255,255,0.2);
-  height: 192px;
+  height: 190px;
   border-bottom: rgba(255,255,255,0.3) solid 1px;
   
 
@@ -61,7 +62,7 @@ div.menu {
 #griglia {
   padding: 0;
   margin: 100;
-  margin-top:130;
+  margin-top:70;
   margin-bottom:150;
 }
 #griglia > li {
@@ -69,7 +70,7 @@ div.menu {
   display: inline-block;
   width:  160px;
   height: 160px;
-  margin: 3px;
+  margin: 8px;
   background-color: #abe2ff;
 }  
 .finish{
@@ -77,26 +78,118 @@ div.menu {
     height:250px;
     border-bottom: rgba(255,255,255,0.3) solid 1px;
     padding-top: 40px; 
-    margin-top:200px;
+    margin-top: 10px;
   }
   .indeximg
   {
-    margin-top:120px;
+    margin-top:80px;
   }
   .biggallery
-  {
-    margin-top:80px;
+  {margin-top:80px;
     margin-left: 8px;
     margin-right: 8px;
   }
-
-  .sfondobianco
-  {  background: url(../images/bianco.jpg) no-repeat center center fixed;}
-  .layout360
-  {
-    margin-top:100px;
+  /*container*/
+  #drop-menu {
+  	margin: 0 auto;
+  	padding: 0;
+  	width: 100%;
   }
-  
+
+  /*menu*/
+
+  ul#menu {
+  	margin: 0px 0 0;
+  	padding: 0;
+  	list-style: none;
+  	float:left;
+  	width: 100%;
+  	background-color: #111;
+  	font-size:80%;
+    margin-top: 47px;
+    margin-bottom: 50px;
+   
+  }
+
+  ul#menu li {
+  	margin:50;
+  	padding:0;
+  	float:left;
+  	display: block;
+  	border-right: 1px solid #222;
+  	position: relative;
+  }
+
+  ul#menu li a {
+  	float: left;
+  	padding:12px 30px;
+  	color: #fff;
+  	text-transform: uppercase;
+  	text-decoration:none;
+  	-webkit-transition: all 0.6s ease;
+  	-moz-transition: all 0.6s ease;
+  	-ms-transition: all 0.6s ease;
+  	-o-transition: all 0.6s ease;
+  	transition: all 0.6s ease;
+  }
+
+  ul#menu li a:hover {
+  	background: #666;
+  	color:#fff
+  }
+
+  ul#menu ul {
+  	margin:2px 0 0;
+  	padding:0;
+  	display:inline-block;
+  	list-style: none;
+  	opacity: 0;
+  	visibility: hidden;
+  	position: absolute;
+  	top: 38px;
+  	left: 0;
+  	z-index:9999;
+  	background: grey;
+  	-webkit-transition: all 0.6s ease;
+  	-moz-transition: all 0.6s ease;
+  	-ms-transition: all 0.6s ease;
+  	-o-transition: all 0.6s ease;
+  	transition: all 0.6s ease;
+  }
+
+  ul#menu li:hover > ul {
+  	opacity: 1;
+  	visibility: visible;
+  }
+
+  ul#menu ul li {
+  	float: none;
+  	display: block;
+  	border: 0;
+  }
+
+  ul#menu ul a {
+  	padding:10px;
+  	width: 130px;
+  	display: block;
+  	white-space: nowrap;
+  	float: none;
+  	text-transform: none;
+  }
+
+  ul#menu ul a:hover {
+  	background-color: white;
+  	color: black;
+  }
+
+  ul#menu ul ul {
+  	top: 0;
+  	left: 150px;
+  	margin: 0;
+  }
+
+
+
 
 /*
 body {
