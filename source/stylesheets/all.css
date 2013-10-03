@@ -28,7 +28,7 @@ p {
 
 a {
   text-decoration: none;
-  color:white;
+  color:grey;
 }
 
 div.menu {
@@ -41,9 +41,8 @@ div.menu {
 div.menu {
   margin-left: 4em;
   margin-right: 4em;
-  font-size: 1em;
-  margin-top: 46px;
-  color:white;
+  font-size: 0.8em;
+  margin-top: 40px;
 }
 
 
@@ -51,8 +50,8 @@ div.menu {
   background-color: rgba(255,255,255,0.2);
   height: 190px;
   border-bottom: rgba(255,255,255,0.3) solid 1px;
-  margin-bottom: 150px;
- 
+  
+
 }
 .logo
 { 
@@ -63,7 +62,8 @@ div.menu {
 #griglia {
   padding: 0;
   margin: 100;
- 
+  margin-top:70;
+  margin-bottom:150;
 }
 #griglia > li {
   border: 1px solid #333333;
@@ -72,14 +72,13 @@ div.menu {
   height: 160px;
   margin: 8px;
   background-color: #abe2ff;
-  
 }  
 .finish{
     background-color: rgba(255,255,255,1);
     height:250px;
     border-bottom: rgba(255,255,255,0.3) solid 1px;
-    padding-top: 20px;
-    margin-top: 50px;
+    padding-top: 40px; 
+    margin-top: 10px;
   }
   .indeximg
   {
